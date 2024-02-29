@@ -30,37 +30,37 @@ public class Solution {
 			bufferPointer = bytesRead = 0;
 		}
 
-    public void fillArray(int[] elemt) throws IOException {
+    		public void fill(int[] elemt) throws IOException {
 			for (int i = 0; i < elemt.length; i++) {
 				elemt[i] = nextInt();
 			}
 		}
 
-		public void fillArray(long[] elemt) throws IOException {
+		public void fill(long[] elemt) throws IOException {
 			for (int i = 0; i < elemt.length; i++) {
 				elemt[i] = nextLong();
 			}
 		}
 
-		public void fillArray(double[] elemt) throws IOException {
+		public void fill(double[] elemt) throws IOException {
 			for (int i = 0; i < elemt.length; i++) {
 				elemt[i] = nextDouble();
 			}
 		}
 
-		public void fillArray(float[] elemt) throws IOException {
+		public void fill(float[] elemt) throws IOException {
 			for (int i = 0; i < elemt.length; i++) {
 				elemt[i] = (float) nextDouble();
 			}
 		}
 
-		public void fillArray(char[] elemt) throws IOException {
+		public void fill(char[] elemt) throws IOException {
 			for (int i = 0; i < elemt.length; i++) {
 				elemt[i] = (char) nextInt();
 			}
 		}
 
-		public void fillArray(String[] elemt) throws IOException {
+		public void fill(String[] elemt) throws IOException {
 			elemt = readLine().split(" ");
 		}
 
